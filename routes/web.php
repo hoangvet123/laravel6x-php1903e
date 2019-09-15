@@ -18,3 +18,8 @@ Route::get('/', function () {
 route::get('/hello', function(){
     return "hello word";
 });
+
+
+route::get('/demo', function(){
+    return "hello demo";
+});
